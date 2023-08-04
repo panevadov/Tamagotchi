@@ -4,5 +4,42 @@
     padding: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
     list-style: none;
-    background-color: aqua;
+    background-color: white;
 }
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 400px;
+    align-content: space-evenly;
+    justify-content: space-between;
+    
+}
+
+.pet{
+    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: rgb(39, 103, 109);
+}
+
+.activities>button {
+    padding: 5px 15px;
+    background: rgb(122, 231, 236);
+    color: rgb(126, 53, 194);
+    border-radius: 70px;
+    cursor: pointer;
+    width: 22%;
+}
+
+.statusBar{
+    width: 100px;
+    background: rgb(78, 78, 245);
+    margin: 2px 2px;
+    border-radius: 6px;
+    padding: 3px 3px;
+}
+
