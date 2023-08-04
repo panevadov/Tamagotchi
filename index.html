@@ -10,9 +10,32 @@
     <h1>Este es el proyecto de tamagotchi</h1>
 
     <div class="container">
+        <!-- Agrego la imagen -->
         <div class="imageFlork">
             <img src="images/image1.png" alt="image">
         </div>
+
+        <!-- Agrego los botones para respectivas actividades -->
+        <div class="activities">
+            <button onclick="Comer()">Comer</button>
+            <button onclick="Dormir()">Dormir</button>
+            <button onclick="Estudiar()">Estudiar</button>
+            <button onclick="Pasear()">Pasear</button>
+        </div>
+
+        <!-- Agrego la barra de estado para cada actividad -->
+        <div class="status">
+            <div class="titleStatus"><h3>Estado</h3></div>
+            Hambre: <div id="Hambre" class="statusBar">100%</div>
+            Sueño: <div id="Sueño" class="statusBar">100%</div>
+            Educación: <div id="Educación" class="statusBar">100%</div>
+            Diversión: <div id="Diversión" class="statusBar">100%</div>
+
+        </div>
+
+        <!-- Agrego espacio para mensaje -->
+        <h3><div id="mensaje"></div></h3>
+
 
     </div>
     
