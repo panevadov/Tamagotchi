@@ -2,9 +2,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+    font-family: 'Shadows Into Light';
     list-style: none;
-    background-color: white;
+    /* background-color: white;       */
+}
+
+body{
+    background-image: url("/images/fondoPantalla.gif");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    color: white;
+    
+}
+
+body>h1{
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 .container{
@@ -13,8 +27,7 @@
     height: 600px;
     align-content: space-evenly;
     justify-content: space-evenly;
-    justify-items: center;
-    
+    justify-items: center;    
 }
 
 .pet{
@@ -33,25 +46,32 @@
     border-radius: 70px;
     cursor: pointer;
     width: 22%;
+    font-size: 25px;
+    font-weight: bold;
 
 }
 
 .statusBar{
-    width: 100px;
-    background: rgb(78, 78, 245);
+    width: 150px;
+    background: rgb(86, 86, 252);
     border-radius: 6px;
     padding: 3px 3px;
     align-items: center;
+    font-size: 24px;
+    border-style: groove;
 }
 
 .status{
     display: grid;
     align-content: space-evenly;
     gap: 15px;
+    font-size: 24px;
+    color: white;
 }
 
 .titleStatus{
     margin-left: -50px;
+    font-size: 30px;
 }
 
 .allStatusBar{
