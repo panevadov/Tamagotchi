@@ -52,7 +52,7 @@ body>h1{
 }
 
 .statusBar{
-    width: 150px;
+    width: 100px;
     background: rgb(86, 86, 252);
     border-radius: 6px;
     padding: 3px 3px;
